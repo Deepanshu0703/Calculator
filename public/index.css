@@ -1,0 +1,288 @@
+body{
+    background-color: blue;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, blue, red);
+}
+
+.container{
+    
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 0 20px;
+    gap: 5px;
+    opacity: 0.5;
+    display:grid;
+    grid-template-areas:
+    "header header header header"
+    "main main del div"
+    "one two three mul"
+    "four five six sub"
+    "seven eight nine add"
+    "dot zero equ equ";
+}
+
+.item1{
+    grid-area: header;
+    background-color: rgb(69, 73, 78);
+    border:1px solid black;
+    padding : 25px 0;  font-size :2rem;
+    text-align: right;
+    color: aliceblue;
+}
+.item2{
+    grid-area: main;
+    background-color: aliceblue;
+    border:1px solid black;
+    padding : 25px 0;  font-size :2rem;
+    text-align: center;
+}
+.item3{
+    grid-area: del;
+    background-color: aliceblue;
+    border:1px solid black;
+    padding : 25px 0;  font-size :2rem;
+    text-align: center;
+}
+.item4{
+    grid-area: div;
+    background-color: aliceblue;
+    border:1px solid black;
+    
+    padding : 25px 0;  font-size :2rem;
+    text-align: center;
+}
+.item5{
+    grid-area: one;
+    background-color: aliceblue;
+    border:1px solid black;
+    padding : 25px 0;  font-size :2rem;
+    text-align: center;
+}
+.item6{
+    grid-area: two;
+    background-color: aliceblue;
+    border:1px solid black;
+    
+    padding : 25px 0;  font-size :2rem;
+    text-align: center;
+}
+.item7{
+    grid-area: three;
+    text-align: center;
+    background-color: aliceblue;
+    border:1px solid black;
+    padding : 25px 0;  font-size :2rem;
+}
+.item8{
+    grid-area: mul;
+   
+    
+    background-color: aliceblue;
+    border:1px solid black;
+    padding : 25px 0;  font-size :2rem;
+    text-align: center;
+}
+.item9{
+    grid-area: four;
+   
+    text-align: center;
+    background-color: aliceblue;
+    border:1px solid black;
+    padding : 25px 0;  font-size :2rem;
+
+}
+.item10{
+    grid-area: five;
+    
+    text-align: center;
+    background-color: aliceblue;
+    border:1px solid black;
+    padding : 25px 0;  font-size :2rem;
+}
+.item11{
+    grid-area: six;
+  
+    background-color: aliceblue;
+    border:1px solid black;
+    text-align: center;
+    padding : 25px 0;  font-size :2rem;
+}
+.item12{
+    grid-area: sub;
+    
+    background-color: aliceblue;
+    border:1px solid black;
+    text-align: center;
+    padding : 25px 0;  font-size :2rem;
+}
+.item13{
+    grid-area: seven;
+    
+    background-color: aliceblue;
+    border:1px solid black;
+    text-align: center;
+    padding : 25px 0;  font-size :2rem;
+}
+.item14{
+    grid-area: eight;
+    
+    text-align: center;
+    background-color: aliceblue;
+    border:1px solid black;
+    padding : 25px 0;  font-size :2rem;
+}
+.item15{
+    grid-area: nine;
+    
+    text-align: center;
+    background-color: aliceblue;
+    border:1px solid black;
+    padding : 25px 0;  font-size :2rem;
+}
+.item16{
+    grid-area: add;
+    
+    text-align: center;
+    background-color: aliceblue;
+    border:1px solid black;
+    padding : 25px 0;  font-size :2rem;
+}
+.item17{
+    grid-area: dot;
+   
+    text-align: center;
+    background-color: aliceblue;
+    border:1px solid black;
+    padding : 25px 0;  font-size :2rem;
+}
+.item18{
+    grid-area: zero;
+    background-color: black;
+    text-align: center;
+    background-color: aliceblue;
+    border:1px solid black;
+    padding : 25px 0;  font-size :2rem;
+}
+.item19{
+    grid-area: equ;
+    padding : 25px 0; 
+    text-align:center;
+    background-color: aliceblue; font-size :2rem;
+    border:1px solid black;
+    
+}
+.item2:hover{
+    background-color: rgb(69, 73, 78);
+    color: white;
+    opacity: 1;
+}
+.item3:hover{
+    background-color: rgb(69, 73, 78);
+    color: white;
+    opacity: 1;
+}
+.item4:hover{
+    background-color: rgb(69, 73, 78);
+    color: white;
+    opacity: 1;
+}
+.item5:hover{
+    background-color: rgb(69, 73, 78);
+    color: white;
+    opacity: 1;
+}
+.item6:hover{
+    background-color: rgb(69, 73, 78);
+    color: white;
+    opacity: 1;
+}
+.item7:hover{
+    background-color: rgb(69, 73, 78);
+    color: white;
+    opacity: 1;
+}
+.item8:hover{
+    background-color: rgb(69, 73, 78);
+    color: white;
+    opacity: 1;
+}
+.item9:hover{
+    background-color: rgb(69, 73, 78);
+    color: white;
+    opacity: 1;
+}
+.item10:hover{
+    background-color: rgb(69, 73, 78);
+    color: white;
+    opacity: 1;
+}
+.item11:hover{
+    background-color: rgb(69, 73, 78);
+    color: white;
+    opacity: 1;
+}
+
+
+
+.item12:hover{
+    background-color: rgb(69, 73, 78);
+    color: white;
+    opacity: 1;
+}
+.item13:hover{
+    background-color: rgb(69, 73, 78);
+    color: white;
+    opacity: 1;
+}
+.item14:hover{
+    background-color: rgb(69, 73, 78);
+    color: white;
+    opacity: 1;
+}
+.item15:hover{
+    background-color: rgb(69, 73, 78);
+    color: white;
+    opacity: 1;
+}
+.item16:hover{
+    background-color: rgb(69, 73, 78);
+    color: white;
+    opacity: 1;
+}
+.item17:hover{
+    background-color: rgb(69, 73, 78);
+    color: white;
+    opacity: 1;
+}
+.item18:hover{
+    background-color: rgb(69, 73, 78);
+    color: white;
+    opacity: 1;
+}
+.item19:hover{
+    background-color: rgb(69, 73, 78);
+    color: white;
+    opacity: 1;
+}
+
+center{
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+}
+.smaller{
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 5px;
+    height: 15px;
+}
+.bigger{
+    height: 20px;
+}
+
+    
